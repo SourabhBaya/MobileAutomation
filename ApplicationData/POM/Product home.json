@@ -1,0 +1,24 @@
+{
+  "WebElement": {
+    "Proceed to checkout,Add to Cart,Cart,Proceed to buy":
+        "xpath=>//*[@text='{1}']",
+    "Deliver to this address":
+        "xpath=>//*[contains(@text,'Deliver to this address')]",
+    "Price":
+        "xpath=>(//*[@class='android.widget.ListView']//*[@class='android.view.View']//*[@class='android.widget.TextView'])[2]",
+    "Select a delivery address":
+        "xpath=>(//*[@text='Select a delivery address'])[2]"
+  },
+
+  "dynamic Xpath": {
+
+    "Proceed to checkout": "Proceed to checkout",
+    "Add to Cart": "Add to Cart",
+    "Cart": "Cart",
+    "Proceed to buy": "Proceed to Buy"
+  },
+
+  "dynamic Xpath Test Data": {
+
+  }
+}

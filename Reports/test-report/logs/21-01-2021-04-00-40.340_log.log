@@ -1,0 +1,667 @@
+2021-01-21 16:00:40 DEBUG DataSetup.java [DataLoad_BeforeAll] 23 - ######## Reading Pre-Configuration data from Json file ########
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=com.amazon.mShop.android.shopping, APP File Name=, Android APP ACTIVITY Name=com.amazon.mShop.home.HomeActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 42 - ################################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 44 - Tag Name is : [@AmazonTest]
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 45 - ################################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 47 - ################################################################################################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 48 - *************Current Running Feature is : Amazon Application Functionality*******************
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 49 - *************Current Running Scenario is : TC1_Select Product From Amazon App*******************
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 50 - ################################################################################################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 53 - #### Loading Test Data in Map ####
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extractTagNameWithPath] 260 - 
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 221 - #########################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 222 - #########################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 223 - ./Test Data/
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 224 - #########################################
+2021-01-21 16:00:40 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 225 - #########################################
+2021-01-21 16:00:40 DEBUG TestDataUtil.java [loadTestDataInMap] 32 - Loading all the test data Json file using map
+2021-01-21 16:00:40 DEBUG TestDataUtil.java [fileNameCompareConvert] 416 - Actual File Name Amazon Application Functionality.json
+2021-01-21 16:00:40 DEBUG TestDataUtil.java [loadTestDataInMap] 101 - Test Case JSON Object key value pairs are {"Username":"8939705163","Product Detail to Search":"65 inch tv","Password":"Srb@160893"}
+2021-01-21 16:00:40 DEBUG TestDataUtil.java [loadTestDataInMap] 206 - {product detail to search=65 inch tv, password=Srb@160893, username=8939705163}
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=com.amazon.mShop.android.shopping, APP File Name=, Android APP ACTIVITY Name=com.amazon.mShop.home.HomeActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-01-21 16:00:40 DEBUG FileLocker.java [isLockedByAnotherTestCase] 63 - File locked successfully
+2021-01-21 16:00:40 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 67 - ##################################################
+2021-01-21 16:00:40 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 68 - Mobile device is Asus
+2021-01-21 16:00:40 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 69 - ##################################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [verifyDeviceAvailability] 62 - ***************Value Matched***************
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 150 - ###################################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 151 - ###################################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 152 - Available Device is : Asus
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 153 - Available Device Value is : J6AAGF03U167YNE
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 154 - ###################################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [getMobileData] 155 - ###################################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 296 - ###############################################
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 297 - Deleting properties file data : Asus
+2021-01-21 16:00:40 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 298 - ###############################################
+2021-01-21 16:00:40 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 81 - *******************Using Device is :Asus ************************
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-01-21 16:00:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=com.amazon.mShop.android.shopping, APP File Name=, Android APP ACTIVITY Name=com.amazon.mShop.home.HomeActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-01-21 16:00:40 DEBUG MobileDriverFactory.java [createInstanceForPhysicalDevice] 35 - #### Creating instance of mobile and setting capabilities for the mobile instance created ####
+2021-01-21 16:01:36 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 89 - ***************************Instance Created**********************
+2021-01-21 16:01:36 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:36 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:36 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:36 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:36 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:36 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='com.amazon.mShop.android.shopping:id/sso_splash_logo']
+2021-01-21 16:01:36 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:01:36 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:36 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:36 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:36 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:01:37 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:37 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='com.amazon.mShop.android.shopping:id/sso_splash_logo']}
+2021-01-21 16:01:39 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-01-21 16:01:39 DEBUG Display.java [isElementDisplayed] 98 - Amazon element is not null....
+2021-01-21 16:01:39 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:01:40 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:01:40 DEBUG Display.java [isElementDisplayed] 104 - Amazon is displayed....
+2021-01-21 16:01:40 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-01-21 16:01:40 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:40 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:40 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:40 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:40 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:40 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@content-desc='Continue in English']
+2021-01-21 16:01:40 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:01:40 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:40 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:40 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:40 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:01:40 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:41 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:41 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:42 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:42 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:42 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:43 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:43 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:43 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:44 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:44 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:45 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:45 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:45 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:45 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:46 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:46 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:47 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:47 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:47 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:48 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:48 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@content-desc='Continue in English']}
+2021-01-21 16:01:48 DEBUG Sync.java [waitforElement] 126 - Waiting for a defined time for element stability
+2021-01-21 16:01:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:49 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Already a customer? Sign in']
+2021-01-21 16:01:49 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:01:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:49 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:01:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:49 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:01:50 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:01:50 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:01:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:50 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:50 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='ap_email_login']
+2021-01-21 16:01:50 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:01:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:50 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:01:51 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:51 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:51 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:52 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:52 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:53 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:53 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:53 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:53 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:54 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:54 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:54 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:55 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:01:55 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='ap_email_login']}
+2021-01-21 16:01:57 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:01:57 DEBUG TestDataUtil.java [getfieldValues] 384 - 8939705163
+2021-01-21 16:01:57 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:57 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-01-21 16:01:57 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-01-21 16:01:57 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-01-21 16:01:58 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-01-21 16:01:59 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:01:59 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:01:59 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:01:59 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:01:59 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Continue']
+2021-01-21 16:01:59 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:01:59 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:59 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:59 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:01:59 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:00 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:00 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:02:00 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:01 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:01 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:01 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:01 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:01 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:01 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='auth-signin-show-password-checkbox']
+2021-01-21 16:02:01 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:01 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:02 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:02 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='auth-signin-show-password-checkbox']}
+2021-01-21 16:02:03 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:04 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='auth-signin-show-password-checkbox']}
+2021-01-21 16:02:05 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:05 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@resource-id='auth-signin-show-password-checkbox']}
+2021-01-21 16:02:07 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:07 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:02:07 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:07 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:07 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:07 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:07 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='ap_password']
+2021-01-21 16:02:07 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:07 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:07 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:07 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:07 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:10 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:02:10 DEBUG TestDataUtil.java [getfieldValues] 384 - Srb@160893
+2021-01-21 16:02:10 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:10 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-01-21 16:02:11 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-01-21 16:02:11 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-01-21 16:02:12 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-01-21 16:02:13 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:14 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:20 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\AmazonLogin.json
+2021-01-21 16:02:20 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='signInSubmit']
+2021-01-21 16:02:20 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:20 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:21 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:21 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:02:21 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:22 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:22 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:22 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:22 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:22 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:22 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Search']
+2021-01-21 16:02:22 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:22 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:23 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:23 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:24 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:24 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:24 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:25 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:25 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:26 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:26 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:27 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:27 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:28 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=//*[@text='Search']}
+2021-01-21 16:02:36 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:36 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:02:37 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:39 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:39 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:39 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:39 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:39 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:39 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:39 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Search']
+2021-01-21 16:02:39 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:39 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:39 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:39 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:39 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:39 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:02:39 DEBUG TestDataUtil.java [getfieldValues] 384 - 65 inch tv
+2021-01-21 16:02:39 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:39 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-01-21 16:02:39 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-01-21 16:02:40 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-01-21 16:02:40 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-01-21 16:02:41 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:42 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:02:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:02:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Amazon Home.json
+2021-01-21 16:02:42 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:02:42 DEBUG TestDataUtil.java [getfieldValues] 384 - 65 inch tv
+2021-01-21 16:02:42 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is (//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text' and @text='65 inch tv'])[1]
+2021-01-21 16:02:42 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:02:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:42 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:02:42 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:02:43 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=(//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text' and @text='65 inch tv'])[1]}
+2021-01-21 16:02:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:02:44 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:02:45 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:02:46 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:20 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:21 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:33 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:33 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:38 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:38 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:03:38 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-01-21 16:03:38 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:38 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:38 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Proceed to checkout']
+2021-01-21 16:03:38 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:38 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:38 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:38 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:38 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:40 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-01-21 16:03:40 DEBUG Display.java [isElementDisplayed] 98 - Proceed to checkout element is not null....
+2021-01-21 16:03:41 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:41 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:41 DEBUG Display.java [isElementDisplayed] 104 - Proceed to checkout is displayed....
+2021-01-21 16:03:42 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-01-21 16:03:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:42 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:42 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Cart']
+2021-01-21 16:03:42 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:42 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:42 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:43 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:43 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:03:43 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:44 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:44 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:03:44 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-01-21 16:03:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:44 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:44 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:44 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:44 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:44 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is (//*[@class='android.widget.ListView']//*[@class='android.view.View']//*[@class='android.widget.TextView'])[2]
+2021-01-21 16:03:44 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:44 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:44 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:45 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:03:46 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=(//*[@class='android.widget.ListView']//*[@class='android.view.View']//*[@class='android.widget.TextView'])[2]}
+2021-01-21 16:03:48 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-01-21 16:03:48 DEBUG Display.java [isElementDisplayed] 98 - Price element is not null....
+2021-01-21 16:03:48 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:49 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:49 DEBUG Display.java [isElementDisplayed] 104 - Price is displayed....
+2021-01-21 16:03:49 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-01-21 16:03:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:49 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:03:49 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-01-21 16:03:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:49 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:49 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Proceed to Buy']
+2021-01-21 16:03:49 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:49 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:50 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-01-21 16:03:50 DEBUG Display.java [isElementDisplayed] 98 - Proceed to buy element is not null....
+2021-01-21 16:03:50 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:51 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:51 DEBUG Display.java [isElementDisplayed] 104 - Proceed to buy is displayed....
+2021-01-21 16:03:51 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-01-21 16:03:51 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:51 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:51 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Proceed to Buy']
+2021-01-21 16:03:51 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:51 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:51 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:51 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:51 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:52 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-01-21 16:03:53 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:03:53 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:03:53 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:53 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-01-21 16:03:53 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-01-21 16:03:53 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:53 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:53 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:53 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-01-21 16:03:53 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\AmazonAutomationFramework.\ApplicationData\POM\Product home.json
+2021-01-21 16:03:53 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is (//*[@text='Select a delivery address'])[2]
+2021-01-21 16:03:53 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-01-21 16:03:53 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:53 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:53 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-01-21 16:03:53 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-01-21 16:03:54 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:03:55 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=(//*[@text='Select a delivery address'])[2]}
+2021-01-21 16:03:56 DEBUG Sync.java [waitforElement] 113 - Waiting for a defined time and increasing the time if element not found
+2021-01-21 16:03:56 DEBUG Sync.java [waitforElement] 120 - Exception occured:An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89754', ip: '10.246.117.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Asus, instrumentApp: true, newCommandTimeout: 10000, noReset: false, platformName: android, systemPort: 8203, udid: J6AAGF03U167YNE}, deviceApiLevel: 28, deviceManufacturer: asus, deviceModel: ASUS_X00TD, deviceName: J6AAGF03U167YNE, deviceScreenDensity: 480, deviceScreenSize: 1080x2160, deviceUDID: J6AAGF03U167YNE, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: false, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 81, systemPort: 8203, takesScreenshot: true, udid: J6AAGF03U167YNE, viewportRect: {height: 1947, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 159c663c-efea-48b7-98ab-59461b5f318f
+*** Element info: {Using=xpath, value=(//*[@text='Select a delivery address'])[2]}
+2021-01-21 16:03:59 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-01-21 16:03:59 DEBUG Display.java [isElementDisplayed] 98 - Select a delivery address element is not null....
+2021-01-21 16:03:59 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-01-21 16:04:00 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-01-21 16:04:00 DEBUG Display.java [isElementDisplayed] 104 - Select a delivery address is displayed....
+2021-01-21 16:04:00 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-01-21 16:04:06 DEBUG CucumberPrePostSteps.java [afterEachScenario] 87 - Clearing Test data after Scenario
+2021-01-21 16:04:06 DEBUG FileLocker.java [isLockedByAnotherTestCase] 63 - File locked successfully
+2021-01-21 16:04:06 DEBUG MobilePropertiesFile.java [writePropertyFileData] 330 - ###############################################
+2021-01-21 16:04:06 DEBUG MobilePropertiesFile.java [writePropertyFileData] 331 - Writing back the device details into properties file : Asus
+2021-01-21 16:04:06 DEBUG MobilePropertiesFile.java [writePropertyFileData] 332 - [Asus, J6AAGF03U167YNE]
+2021-01-21 16:04:06 DEBUG MobilePropertiesFile.java [writePropertyFileData] 333 - ###############################################
+2021-01-21 16:04:06 DEBUG CucumberPrePostSteps.java [closeDriverInstance] 267 - ### Closing the browser/mobile Instance ### 

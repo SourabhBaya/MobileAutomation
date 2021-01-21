@@ -1,0 +1,30 @@
+{
+  "WebElement": {
+
+    "Username,Password,Login":
+		 "xpath=>//*[@resource-id='{1}']",
+    "AlreadyCustomer,Continue":
+          "xpath=>//*[@text='{1}']",
+    "Select Your Language":
+          "xpath=>//*[@content-desc='Continue in English']",
+    "Show Password":
+          "xpath=>//*[@resource-id='auth-signin-show-password-checkbox']",
+    "Amazon":
+            "xpath=>//*[@resource-id='com.amazon.mShop.android.shopping:id/sso_splash_logo']"
+
+  },
+
+  "dynamic Xpath": {
+      "Username": "ap_email_login",
+      "Password": "ap_password",
+      "Login": "signInSubmit",
+      "AlreadyCustomer": "Already a customer? Sign in",
+      "Continue": "Continue"
+
+
+  },
+  "dynamic Xpath Test Data":
+  {
+
+  }
+}

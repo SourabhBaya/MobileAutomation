@@ -1,0 +1,17 @@
+{
+	"WebElement": {
+		"Search":
+				"xpath=>//*[@text='Search']",
+		"Product Detail to Search":
+				"xpath=>//*[@text='Search']",
+      	"Product details":
+	  			"xpath=>(//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text' and @text='<1>'])[1]"
+
+	},
+	"dynamic Xpath": {
+
+	},
+	"dynamic Xpath Test Data": {
+      "Product details": "Product Detail to Search"
+    }
+}
