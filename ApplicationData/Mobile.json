@@ -1,0 +1,26 @@
+{
+	"COMMENTS FOR MOBILE JSON FOR YOUR REFERENCE": [
+		"Execution_Environment -- Emulator or Physical Real Device  ## Emulator - To execute tests on Mobile Emulators. ## Physical Real Device - To execute tests on Physical Real Device.",
+		"Platform -- IOS or Android ## Android - To execute tests on Android devices ## IOS - To execute tests on IOS devices",
+		"Test Environment -- Web Browser or APP ## Web Browser - To execute tests on mobile Web Browsers ## APP - To execute tests on mobile APPS",
+		"APP File Name -- If you have multiple apps then please mention attributes as  APP File Name1 , APP File Name2"
+	],
+
+	"Mobile": {
+		"Execution_Environment": "Physical Real Device",
+		"Platform": "Android",
+		"Test Environment": "APP"
+	},
+	"Physical Real Device": {
+		"Android": {
+			"Android Device Name": "Asus",
+			"Android APP PACKAGE Name": "org.openintents.shopping",
+			"Android APP ACTIVITY Name": "org.openintents.shopping.ShoppingActivity",
+			"APP File Name": "",
+			"Android Local HUB URL": "http://127.0.0.1:4723/wd/hub"
+		},
+		"IOS": {
+
+		}
+	}
+}

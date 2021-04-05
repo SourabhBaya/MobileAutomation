@@ -1,0 +1,20 @@
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [deleteReportingDirectory] 145 - Existing Reporting Directory at C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework\.\Reports\test-report cleaned successfully.
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [main] 40 - ###################### Pre-Execution Setup Started ######################
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [startExecutionTime] 183 - ######################################################################################
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [startExecutionTime] 184 - ######################################################################################
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [startExecutionTime] 185 - ####################### Execution Started At 2021-04-06 00:18:40 ###########################
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [startExecutionTime] 187 - ######################################################################################
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [startExecutionTime] 188 - ######################################################################################
+2021-04-06 00:18:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-04-06 00:18:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:40 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:40 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=org.openintents.
+shopping, APP File Name=, Android APP ACTIVITY Name=org.openintents.shopping.ShoppingActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [getForkCount] 283 - 118
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [getForkCount] 284 - 116
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [getForkCount] 288 - ForkCount is 1
+2021-04-06 00:18:40 DEBUG MobilePropertiesFile.java [verifyDeviceAvailability] 62 - ***************Value Matched***************
+2021-04-06 00:18:40 DEBUG PreRunSetup.java [main] 59 - ###################### Pre-Execution Setup Completed ######################

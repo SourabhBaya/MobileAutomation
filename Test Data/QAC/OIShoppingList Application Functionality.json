@@ -1,0 +1,20 @@
+{
+
+  "TC1_Add item list in Shopping List Application": {
+    "ShoppingList name": "Grocery",
+    "item name": "Sugar",
+    "ShoppingList name1": "Clothes",
+    "item name1": "Jeans"
+  },
+
+  "TC2_Sorting of item list in Shopping list application": {
+    "ShoppingList name": "Grocery",
+    "item name": "Sugar",
+    "item name1": "Oil",
+    "item name2": "Tea",
+    "item name3": "Milk",
+    "item name4": "Bread",
+    "item name5": "Juices"
+  }
+
+}

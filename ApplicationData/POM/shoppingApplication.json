@@ -1,0 +1,34 @@
+{
+  "WebElement": {
+
+    "Shopping List": "xpath=>//*[@text='Choose your preferred layout']",
+    "Layout with Add item": "xpath=>//*[@resource-id='org.openintents.shopping:id/layout_choice_bottom']",
+    "ShoppingList name, ShoppingList name1":
+		 "xpath=>//*[@class='android.widget.EditText']",
+    "New Shopping List Title":
+          "xpath=>//*[@text='Enter name of new shopping list']",
+    "New List":
+          "xpath=>//*[@text='New list']",
+    "Open Navigation Drawer":
+          "xpath=>//*[@content-desc='Open navigation drawer']",
+    "My Shopping List":
+            "xpath=>//*[@text='My shopping list']",
+    "OK": "xpath=>//*[@text='OK']",
+    "item name, item name1,item name2,item name3,item name4,item name5": "xpath=>//*[@class='android.widget.EditText']",
+    "ADD": "xpath=>//*[@text='ADD']",
+    "More Option": "xpath=>//*[@content-desc='More options']",
+    "Delete List": "xpath=>//*[@text='Delete list']",
+    "Delete popUp Title": "xpath=>//*[@text='Do you really want to delete this shopping list?']",
+    "Settings": "xpath=>//*[@text='Settings']",
+    "Sort Order": "xpath=>//*[@text='Sort order']",
+    "Alphabetical order": "xpath=>//*[@text='alphabetical']"
+  },
+
+  "dynamic Xpath": {
+
+  },
+  "dynamic Xpath Test Data":
+  {
+
+  }
+}

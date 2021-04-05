@@ -1,0 +1,401 @@
+2021-04-06 00:18:49 DEBUG DataSetup.java [DataLoad_BeforeAll] 23 - ######## Reading Pre-Configuration data from Json file ########
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=org.openintents.shopping, APP File Name=, Android APP ACTIVITY Name=org.openintents.shopping.ShoppingActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 42 - ################################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 44 - Tag Name is : [@ShoppingListApp]
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 45 - ################################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 47 - ################################################################################################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 48 - *************Current Running Feature is : OIShoppingList Application Functionality*******************
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 49 - *************Current Running Scenario is : TC1_Add item list in Shopping List Application*******************
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 50 - ################################################################################################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [beforeEachScenario] 53 - #### Loading Test Data in Map ####
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extractTagNameWithPath] 260 - 
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 221 - #########################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 222 - #########################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 223 - ./Test Data/
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 224 - #########################################
+2021-04-06 00:18:49 DEBUG CucumberPrePostSteps.java [extracting_testdata_pom_filepath] 225 - #########################################
+2021-04-06 00:18:49 DEBUG TestDataUtil.java [loadTestDataInMap] 32 - Loading all the test data Json file using map
+2021-04-06 00:18:49 DEBUG TestDataUtil.java [fileNameCompareConvert] 416 - Actual File Name OIShoppingList Application Functionality.json
+2021-04-06 00:18:49 DEBUG TestDataUtil.java [loadTestDataInMap] 101 - Test Case JSON Object key value pairs are {"ShoppingList name":"Grocery","ShoppingList name1":"Clothes","item name":"Sugar","item name1":"Jeans"}
+2021-04-06 00:18:49 DEBUG TestDataUtil.java [loadTestDataInMap] 206 - {shoppinglist name=Grocery, shoppinglist name1=Clothes, item name=Sugar, item name1=Jeans}
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=org.openintents.shopping, APP File Name=, Android APP ACTIVITY Name=org.openintents.shopping.ShoppingActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-04-06 00:18:49 DEBUG FileLocker.java [isLockedByAnotherTestCase] 63 - File locked successfully
+2021-04-06 00:18:49 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 67 - ##################################################
+2021-04-06 00:18:49 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 68 - Mobile device is Asus
+2021-04-06 00:18:49 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 69 - ##################################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [verifyDeviceAvailability] 62 - ***************Value Matched***************
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 150 - ###################################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 151 - ###################################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 152 - Available Device is : Asus
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 153 - Available Device Value is : J6AAGF03U167YNE
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 154 - ###################################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [getMobileData] 155 - ###################################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 296 - ###############################################
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 297 - Deleting properties file data : Asus
+2021-04-06 00:18:49 DEBUG MobilePropertiesFile.java [deletePropertyFileData] 298 - ###############################################
+2021-04-06 00:18:49 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 81 - *******************Using Device is :Asus ************************
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 279 - Getting the data of environment details from PreConfiguration file
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG CLParams.java [ReadingCLParamsWebMob] 108 - ### Reading CL Params ###
+2021-04-06 00:18:49 DEBUG POMUtil.java [getExecutionMobileEnvironmentDetails] 325 - ########################################### mapExecutionEnvironmentDetailsHM #####{Android APP PACKAGE Name=org.openintents.shopping, APP File Name=, Android APP ACTIVITY Name=org.openintents.shopping.ShoppingActivity, Android Device Name=Asus, Android Local HUB URL=http://127.0.0.1:4723/wd/hub}
+2021-04-06 00:18:49 DEBUG MobileDriverFactory.java [createInstanceForPhysicalDevice] 34 - #### Creating instance of mobile and setting capabilities for the mobile instance created ####
+2021-04-06 00:19:46 DEBUG MobileDeviceInitialization.java [triggerPhysicalMobileDevice] 89 - ***************************Instance Created**********************
+2021-04-06 00:19:46 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:46 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:46 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:46 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:46 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:46 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Choose your preferred layout']
+2021-04-06 00:19:46 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:46 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:46 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:46 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:46 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:47 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-04-06 00:19:47 DEBUG Display.java [isElementDisplayed] 98 - Shopping List element is not null....
+2021-04-06 00:19:47 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:48 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:48 DEBUG Display.java [isElementDisplayed] 104 - Shopping List is displayed....
+2021-04-06 00:19:48 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-04-06 00:19:48 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:48 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:48 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:48 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:48 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:48 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@resource-id='org.openintents.shopping:id/layout_choice_bottom']
+2021-04-06 00:19:48 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:48 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:48 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:48 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:48 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:49 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:49 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:19:49 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:50 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:50 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:19:50 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-04-06 00:19:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:50 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:50 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:50 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:50 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:50 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='My shopping list']
+2021-04-06 00:19:50 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:50 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:50 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:51 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-04-06 00:19:51 DEBUG Display.java [isElementDisplayed] 98 - My Shopping List element is not null....
+2021-04-06 00:19:51 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:52 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:52 DEBUG Display.java [isElementDisplayed] 104 - My Shopping List is displayed....
+2021-04-06 00:19:52 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-04-06 00:19:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:52 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:52 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:52 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:52 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:52 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@content-desc='Open navigation drawer']
+2021-04-06 00:19:52 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:52 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:52 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:52 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:19:53 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:54 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:54 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:54 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:54 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:54 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:54 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:54 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='New list']
+2021-04-06 00:19:54 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:54 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:54 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:54 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:54 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:55 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:55 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:19:55 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:56 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:56 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:56 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:19:56 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-04-06 00:19:56 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:56 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:56 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:56 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:56 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:56 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Enter name of new shopping list']
+2021-04-06 00:19:56 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:56 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:56 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:56 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:56 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:56 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-04-06 00:19:56 DEBUG Display.java [isElementDisplayed] 98 - New Shopping List Title element is not null....
+2021-04-06 00:19:56 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:19:57 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:19:57 DEBUG Display.java [isElementDisplayed] 104 - New Shopping List Title is displayed....
+2021-04-06 00:19:57 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-04-06 00:19:57 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:57 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:57 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:57 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:19:57 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:19:57 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@class='android.widget.EditText']
+2021-04-06 00:19:57 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:19:57 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:57 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:57 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:57 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:19:58 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:19:58 DEBUG TestDataUtil.java [getfieldValues] 384 - Grocery
+2021-04-06 00:19:58 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:19:58 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-04-06 00:19:58 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-04-06 00:19:59 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-04-06 00:19:59 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-04-06 00:20:00 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:01 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:01 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:01 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:01 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:01 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:01 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='OK']
+2021-04-06 00:20:01 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:01 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:01 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:02 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:02 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:02 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:03 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:03 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:03 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:03 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:03 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:03 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:03 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@class='android.widget.EditText']
+2021-04-06 00:20:03 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:03 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:03 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:03 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:03 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:03 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:20:03 DEBUG TestDataUtil.java [getfieldValues] 384 - Sugar
+2021-04-06 00:20:03 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:03 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-04-06 00:20:03 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-04-06 00:20:04 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-04-06 00:20:04 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-04-06 00:20:05 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:05 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:05 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:05 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:05 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:05 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:05 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:05 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='ADD']
+2021-04-06 00:20:05 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:05 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:05 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:05 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:05 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:06 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:06 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:06 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:07 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:12 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:12 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:12 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:12 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:12 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:12 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@content-desc='Open navigation drawer']
+2021-04-06 00:20:12 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:12 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:12 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:12 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:12 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:14 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:14 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:14 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:14 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:14 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:14 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:14 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:14 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:14 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:14 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='New list']
+2021-04-06 00:20:14 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:14 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:14 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:14 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:14 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:15 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:15 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:16 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:16 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:16 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:16 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:16 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:16 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:16 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:16 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@class='android.widget.EditText']
+2021-04-06 00:20:16 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:16 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:16 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:16 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:16 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:17 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:20:17 DEBUG TestDataUtil.java [getfieldValues] 384 - Clothes
+2021-04-06 00:20:17 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:17 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-04-06 00:20:17 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-04-06 00:20:18 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-04-06 00:20:18 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-04-06 00:20:19 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:20 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:20 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:20 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:20 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:20 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:20 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='OK']
+2021-04-06 00:20:20 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:20 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:20 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:21 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:21 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:21 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:22 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:22 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:22 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:22 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:22 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:22 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@class='android.widget.EditText']
+2021-04-06 00:20:22 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:22 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:22 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:20:22 DEBUG TestDataUtil.java [getfieldValues] 384 - Jeans
+2021-04-06 00:20:22 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:22 DEBUG Textbox.java [enterValue] 44 - ### Entering value into the Text box element ###
+2021-04-06 00:20:23 DEBUG Textbox.java [enterValueForMobile] 152 - #### Waiting for stability of the element ####
+2021-04-06 00:20:23 DEBUG Textbox.java [waitingForStabilityOfElement] 268 - Textbox field is enabled
+2021-04-06 00:20:23 DEBUG Textbox.java [waitingForStabilityOfElement] 270 - Textbox field is clickable
+2021-04-06 00:20:24 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:25 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:25 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:25 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:25 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:25 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:25 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:25 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='ADD']
+2021-04-06 00:20:25 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:25 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:25 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:25 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:25 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:25 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:25 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:25 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:26 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:26 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:26 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:26 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:26 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:26 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:26 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@content-desc='More options']
+2021-04-06 00:20:26 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:26 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:26 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:26 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:26 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:27 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:27 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:27 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:28 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:28 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:28 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:28 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:28 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:28 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:28 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Delete list']
+2021-04-06 00:20:28 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:28 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:28 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:28 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:28 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:29 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:29 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:30 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:30 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:30 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:30 DEBUG TestDataUtil.java [getfieldValues] 243 - Getting the value of Particular field
+2021-04-06 00:20:30 DEBUG TestDataUtil.java [getfieldValues] 384 - 
+2021-04-06 00:20:30 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:30 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:30 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:30 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:30 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:30 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='Do you really want to delete this shopping list?']
+2021-04-06 00:20:30 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:30 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:30 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:30 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:30 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:31 DEBUG Display.java [isElementDisplayed] 95 - ### Checking if the element is being displayed ###
+2021-04-06 00:20:31 DEBUG Display.java [isElementDisplayed] 98 - Delete popUp Title element is not null....
+2021-04-06 00:20:31 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:32 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:32 DEBUG Display.java [isElementDisplayed] 104 - Delete popUp Title is displayed....
+2021-04-06 00:20:32 DEBUG Display.java [isElementDisplayed] 136 - Is element Displayed true
+2021-04-06 00:20:32 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:32 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:32 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:32 DEBUG POMUtil.java [getPomPath] 36 - Started Retrieving POM File Path
+2021-04-06 00:20:32 DEBUG POMUtil.java [getPomPath] 45 - POM File Path is :C:\Users\sourabh.baya\Desktop\Sample\MobileAutomationFramework.\ApplicationData\POM\shoppingApplication.json
+2021-04-06 00:20:32 DEBUG ElementUtil.java [getUpdatedIdentifierValue] 170 - Updated Identifier value is //*[@text='OK']
+2021-04-06 00:20:32 DEBUG ElementUtil.java [getElement] 128 - Getting the web element Object using locator
+2021-04-06 00:20:32 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:32 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:32 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:32 DEBUG Sync.java [waitforElement] 86 - #### Explicitly waiting for element to be found ####
+2021-04-06 00:20:33 DEBUG CLParams.java [ReadingIntegerCLParamsPreConfig] 62 - ### Reading Integer CL Params Pre Config ###
+2021-04-06 00:20:33 DEBUG Button.java [click] 48 - #### Clicking the element ####
+2021-04-06 00:20:33 DEBUG TakeScreenshot.java [getScreenshot] 25 - Taking screen shot for each steps
+2021-04-06 00:20:34 DEBUG TakeScreenshot.java [getScreenshot] 30 - Embed screenshot to the report
+2021-04-06 00:20:34 DEBUG CucumberPrePostSteps.java [afterEachScenario] 87 - Clearing Test data after Scenario
+2021-04-06 00:20:34 DEBUG FileLocker.java [isLockedByAnotherTestCase] 63 - File locked successfully
+2021-04-06 00:20:34 DEBUG MobilePropertiesFile.java [writePropertyFileData] 330 - ###############################################
+2021-04-06 00:20:34 DEBUG MobilePropertiesFile.java [writePropertyFileData] 331 - Writing back the device details into properties file : Asus
+2021-04-06 00:20:34 DEBUG MobilePropertiesFile.java [writePropertyFileData] 332 - [Asus, J6AAGF03U167YNE]
+2021-04-06 00:20:34 DEBUG MobilePropertiesFile.java [writePropertyFileData] 333 - ###############################################
+2021-04-06 00:20:34 DEBUG CucumberPrePostSteps.java [closeDriverInstance] 267 - ### Closing the browser/mobile Instance ### 

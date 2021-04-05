@@ -1,0 +1,27 @@
+{
+	"COMMENTS FOR PRECONFIGURATIONS JSON FOR YOUR REFERENCE": [
+		"Test_Scope -- Web or Mobile ## Web - To execute tests on Web Browsers ## Mobile - To execute tests on Mobile APPS and Browsers",
+		"Capture_Screenshot_on_Failure_Only -- Yes or No #### No - It will capture screenshot for all steps. ## Yes - It will capture screenshot only for failures.",
+		"To_start_Selenium_and_Appium_Servers_automatically -- Yes or No #### Yes -> will start the Selenium hub and Appium Servers #### No -> will not start the Selenium hub and Appium Servers."
+	],
+
+	"PreConfig": {
+		"Test_Scope": "Mobile",
+		"Capture_Screenshot_on_Failure_Only": "No",
+		"Test_Data_Folder_Path": "./Test Data/",
+		"POM_Files_Path": "./ApplicationData/POM/",
+		"Report_Path_in_Local": "./Reports",
+		"TestData_Separator": ",",
+		"Chrome_Driver_Path": "./drivers/chromedriver.exe",
+		"Selenium_Hub_Path": "/drivers/selenium-server-standalone-3.141.59.jar",
+		"Maximum_Wait_Time": "6000",
+		"Short_Maximum_Wait_Time": "5000",
+		"Page_Load_Wait_Time": "6000",
+		"Mobile_Device_Properties_File": "/ApplicationData/Mobile/PhysicalDevice/PhysicalDeviceList.properties",
+		"Appium_Config_Json_File": "/ApplicationData/Mobile/PhysicalDevice/AppiumServer/AppiumServerConfig.json",
+		"Log4j_Properties_Path": "./ApplicationData/log4j.properties",
+		"LogFilePAth": "./Reports/test-report/logs",
+		"To_start_Selenium_and_Appium_Servers_automatically": "No",
+		"Mobile_JSON_Path": "./ApplicationData/Mobile.json"
+	}
+}

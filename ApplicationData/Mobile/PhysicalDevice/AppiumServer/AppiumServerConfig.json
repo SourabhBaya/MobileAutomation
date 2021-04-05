@@ -1,0 +1,10 @@
+{
+  "Asus":
+  {
+    "Port" :"5007",
+    "BP Port":"4726",
+    "Appium Server Host": "127.0.0.1",
+    "Json File Path": "\\ApplicationData\\Mobile\\PhysicalDevice\\AppiumServer\\Asus.json",
+    "SystemPort": "8203"
+  }
+}
